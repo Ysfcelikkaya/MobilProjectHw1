@@ -1,4 +1,4 @@
-package com.example.deneme
+package com.yusufcelikkaya.deneme
 
 open class   Item(var name : String, var price : Double) {
 
@@ -9,7 +9,6 @@ class Food(name: String, price: Double, var weight : String) : Item(name, price)
 class Cloth(name: String, price: Double, var type : String) : Item(name, price) {
 
 }
-
 class ShoppingList(){
     var list = mutableListOf<Item>()
     fun addItem(){
